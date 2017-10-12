@@ -11,7 +11,6 @@
  * @author   Jan Schneider <jan@horde.org>
  * @author   Gunnar Wrobel <wrobel@pardus.de>
  * @license  http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link     http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 
 /**
@@ -31,7 +30,6 @@
  * @author   Jan Schneider <jan@horde.org>
  * @author   Gunnar Wrobel <wrobel@pardus.de>
  * @license  http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link     http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 class Horde_Kolab_FreeBusy_Object_Event {
 
