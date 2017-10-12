@@ -10,7 +10,6 @@
  * @author     Gunnar Wrobel <wrobel@pardus.de>
  * @author     Mathieu Parent <math.parent@gmail.com>
  * @license    http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link       http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 
 /**
@@ -28,7 +27,6 @@
  * @author     Gunnar Wrobel <wrobel@pardus.de>
  * @author     Mathieu Parent <math.parent@gmail.com>
  * @license    http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link       http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 class Horde_Kolab_FreeBusy_Unit_Freebusy_Helper_OwaTest
 extends PHPUnit_Framework_TestCase

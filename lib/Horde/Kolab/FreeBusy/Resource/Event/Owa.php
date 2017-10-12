@@ -10,7 +10,6 @@
  * @author   Mathieu Parent <math.parent@gmail.com>
  * @author   Gunnar Wrobel <wrobel@pardus.de>
  * @license  http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link     http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 
 /**
@@ -29,7 +28,6 @@
  * @author   Mathieu Parent <math.parent@gmail.com>
  * @author   Gunnar Wrobel <wrobel@pardus.de>
  * @license  http://www.horde.org/licenses/lgpl21 LGPL 2.1
- * @link     http://pear.horde.org/index.php?package=Kolab_FreeBusy
  */
 class Horde_Kolab_FreeBusy_Resource_Event_Owa
 implements Horde_Kolab_FreeBusy_Resource_Event
