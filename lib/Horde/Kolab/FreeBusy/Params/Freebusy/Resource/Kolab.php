@@ -19,7 +19,7 @@
  * Copyright 2004-2007 Klarälvdalens Datakonsult AB
  * Copyright 2009-2017 Horde LLC (http://www.horde.org/)
  *
- * See the enclosed file COPYING for license information (LGPL). If you did not
+ * See the enclosed file LICENSE for license information (LGPL). If you did not
  * receive this file, see
  * http://www.horde.org/licenses/lgpl21.
  *
