@@ -40,7 +40,7 @@
     <dir name="Horde">
      <dir name="Kolab">
       <dir name="FreeBusy">
-       <file name="TODO" role="doc" />
+       <file name="TODO.rst" role="doc" />
       </dir> <!-- /doc/Horde/Kolab/FreeBusy -->
      </dir> <!-- /doc/Horde/Kolab -->
     </dir> <!-- /doc/Horde -->
@@ -611,7 +611,7 @@
  </dependencies>
  <phprelease>
   <filelist>
-   <install as="TODO" name="doc/Horde/Kolab/FreeBusy/TODO" />
+   <install as="TODO.rst" name="doc/Horde/Kolab/FreeBusy/TODO.rst" />
    <install as="Horde/Kolab/FreeBusy.php" name="lib/Horde/Kolab/FreeBusy.php" />
    <install as="Horde/Kolab/FreeBusy/Cache.php" name="lib/Horde/Kolab/FreeBusy/Cache.php" />
    <install as="Horde/Kolab/FreeBusy/Cache/Base.php" name="lib/Horde/Kolab/FreeBusy/Cache/Base.php" />
