@@ -831,8 +831,7 @@
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * Fixed handling of extended free/busy information.
-* Fixed storing acl values when the folder is triggered by a foreign user
-  kolab/issue3208 (Free/Busy list is always empty)
+* Fixed storing acl values when the folder is triggered by a foreign user kolab/issue3208 (Free/Busy list is always empty)
 * Fixed identification of the corresponding free/busy server.
 * Implemented extended free/busy access concept.
 * kolab/issue3256 (resmgr responses should reflect server revision in PRODID)
@@ -865,14 +864,10 @@
    </stability>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-* SERVER_NAME undefined in freebusy/regenerate.php (kolab/issue3446,
-  https://www.intevation.de/roundup/kolab/issue3446)
-* freebusy cache regeneration on the command line looks confusing
-  (kolab/issue3415, https://www.intevation.de/roundup/kolab/issue3415)
-* kolabFreeBusyPast is not used (kolab/issue3438,
-  https://www.intevation.de/roundup/kolab/issue3438)
-* Fixed manager access in the regeneration script
-  kolab/issue3313 (free/busy regeneration as manager broken in 2.2.1-beta1)
+* SERVER_NAME undefined in freebusy/regenerate.php (kolab/issue3446, https://www.intevation.de/roundup/kolab/issue3446)
+* freebusy cache regeneration on the command line looks confusing (kolab/issue3415, https://www.intevation.de/roundup/kolab/issue3415)
+* kolabFreeBusyPast is not used (kolab/issue3438, https://www.intevation.de/roundup/kolab/issue3438)
+* Fixed manager access in the regeneration script kolab/issue3313 (free/busy regeneration as manager broken in 2.2.1-beta1)
    </notes>
   </release>
   <release>
@@ -886,10 +881,8 @@
    </stability>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
-* kolab/issue3450 (freebusy/user@example.com.ifb returns extended
-  free/busy information)
-* kolab/issue3527 (no immediately printing of folders during
-  freebusy cache regeneration)
+* kolab/issue3450 (freebusy/user@example.com.ifb returns extended free/busy information)
+* kolab/issue3527 (no immediately printing of folders during freebusy cache regeneration)
    </notes>
   </release>
   <release>
