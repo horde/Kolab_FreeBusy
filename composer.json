@@ -1,5 +1,5 @@
 {
-    "name": "horde/horde-kolab-freebusy",
+    "name": "horde/kolab-freebusy",
     "description": "A package for providing free/busy information",
     "type": "library",
     "homepage": "https://pear.horde.org",
