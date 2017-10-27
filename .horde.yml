@@ -12,3 +12,33 @@ description: |
   requests this data for a particular user.
 list: dev
 type: library
+authors:
+  -
+    name: Gunnar Wrobel
+    user: wrobel
+    email: p@rdus.de
+    active: true
+    role: lead
+version:
+  release: 1.0.0alpha1
+  api: 1.0.0
+state:
+  release: beta
+  api: beta
+license:
+  identifier: LGPL-2.1
+  uri: http://www.horde.org/licenses/lgpl21
+dependencies:
+  required:
+    php: ^5.3 || ^7
+    pear:
+      pear.horde.org/Horde_Kolab_Format: ^2
+      pear.horde.org/Horde_Kolab_Server: ^2
+      pear.horde.org/Horde_Kolab_Storage: ^2
+      pear.horde.org/Horde_Icalendar: ^2
+      pear.horde.org/Horde_Date: ^2
+      pear.horde.org/Horde_Translation: ^2.2
+      pear.horde.org/Horde_Util: ^2
+  optional:
+    pear:
+      pear.horde.org/Horde_Test: ^2.1
