@@ -1,0 +1,69 @@
+----------------
+v1.0.0alpha1-git
+----------------
+
+[jan] Mark PHP 7 as supported.
+[jan] Fix issues with certain locales like Turkish.
+[jan] Update Basque translation (Ibon Igartua <ibon.igartua@ehu.es>).
+[jan] Fix tests to work with PHPUnit 3.6.
+[jan] Update Latvian translation.
+
+
+------
+v0.1.5
+------
+
+Adapted the package to the changes in Kolab_Server.
+kolab/issue3537 (Allowing xfb access to groups does not work)
+Improved handling of dba access.
+Extended support for more complex scenario testing.
+
+
+------
+v0.1.4
+------
+
+kolab/issue3450 (freebusy/user@example.com.ifb returns extended free/busy
+      information)
+kolab/issue3527 (no immediately printing of folders during freebusy cache
+      regeneration)
+
+
+------
+v0.1.3
+------
+
+SERVER_NAME undefined in freebusy/regenerate.php (kolab/issue3446,
+      https://www.intevation.de/roundup/kolab/issue3446)
+freebusy cache regeneration on the command line looks confusing
+      (kolab/issue3415, https://www.intevation.de/roundup/kolab/issue3415)
+kolabFreeBusyPast is not used (kolab/issue3438,
+      https://www.intevation.de/roundup/kolab/issue3438)
+Fixed manager access in the regeneration script kolab/issue3313 (free/busy
+      regeneration as manager broken in 2.2.1-beta1)
+
+
+------
+v0.1.2
+------
+
+Fixed copyright information.
+
+
+------
+v0.1.1
+------
+
+Fixed handling of extended free/busy information.
+Fixed storing acl values when the folder is triggered by a foreign user
+      kolab/issue3208 (Free/Busy list is always empty)
+Fixed identification of the corresponding free/busy server.
+Implemented extended free/busy access concept.
+kolab/issue3256 (resmgr responses should reflect server revision in PRODID)
+
+
+------
+v0.1.0
+------
+
+Initial release.

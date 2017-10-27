@@ -17,7 +17,7 @@
   <email>p@rdus.de</email>
   <active>yes</active>
  </lead>
- <date>2017-10-20</date>
+ <date>2017-10-27</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -40,6 +40,7 @@
     <dir name="Horde">
      <dir name="Kolab">
       <dir name="FreeBusy">
+       <file name="CHANGES" role="doc" />
        <file name="TODO.rst" role="doc" />
       </dir> <!-- /doc/Horde/Kolab/FreeBusy -->
      </dir> <!-- /doc/Horde/Kolab -->
@@ -610,6 +611,7 @@
  </dependencies>
  <phprelease>
   <filelist>
+   <install as="CHANGES" name="doc/Horde/Kolab/FreeBusy/CHANGES" />
    <install as="TODO.rst" name="doc/Horde/Kolab/FreeBusy/TODO.rst" />
    <install as="Horde/Kolab/FreeBusy.php" name="lib/Horde/Kolab/FreeBusy.php" />
    <install as="Horde/Kolab/FreeBusy/Cache.php" name="lib/Horde/Kolab/FreeBusy/Cache.php" />
@@ -912,7 +914,7 @@
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2017-10-20</date>
+   <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Mark PHP 7 as supported.
