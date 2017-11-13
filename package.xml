@@ -3,21 +3,15 @@
  <name>Horde_Kolab_FreeBusy</name>
  <channel>pear.horde.org</channel>
  <extends>Kolab_FreeBusy</extends>
- <summary>A package for providing free/busy information</summary>
- <description>Free/busy information for the
- users of a Kolab server. A Kolab client changing calendar data in an
- IMAP folder is required to call the triggering script provided within
- this package via HTTP. This will refresh the cache maintained by this
- package with partial free/busy data. This partial data sets are
- finally combined to the complete free/busy information once a client
- requests this data for a particular user.</description>
+ <summary>Kolab application providing free/busy information</summary>
+ <description>Free/busy information for the users of a Kolab server. A Kolab client changing calendar data in an IMAP folder is required to call the triggering script provided within this package via HTTP. This will refresh the cache maintained by this package with partial free/busy data. This partial data sets are finally combined to the complete free/busy information once a client requests this data for a particular user.</description>
  <lead>
   <name>Gunnar Wrobel</name>
   <user>wrobel</user>
   <email>p@rdus.de</email>
   <active>yes</active>
  </lead>
- <date>2017-10-27</date>
+ <date>2017-11-11</date>
  <version>
   <release>1.0.0alpha1</release>
   <api>1.0.0</api>
@@ -914,7 +908,7 @@
     <release>beta</release>
     <api>beta</api>
    </stability>
-   <date>2017-10-27</date>
+   <date>2017-11-11</date>
    <license uri="http://www.horde.org/licenses/lgpl21">LGPL-2.1</license>
    <notes>
 * [jan] Mark PHP 7 as supported.
