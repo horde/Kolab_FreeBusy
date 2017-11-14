@@ -514,7 +514,6 @@
        <file name="AllTests.php" role="test" />
        <file name="Autoload.php" role="test" />
        <file name="bootstrap.php" role="test" />
-       <file name="phpunit.xml" role="test" />
        <file name="TestCase.php" role="test" />
       </dir> <!-- /test/Horde/Kolab/FreeBusy -->
      </dir> <!-- /test/Horde/Kolab -->
@@ -762,7 +761,6 @@
    <install as="Horde/Kolab/FreeBusy/AllTests.php" name="test/Horde/Kolab/FreeBusy/AllTests.php" />
    <install as="Horde/Kolab/FreeBusy/Autoload.php" name="test/Horde/Kolab/FreeBusy/Autoload.php" />
    <install as="Horde/Kolab/FreeBusy/bootstrap.php" name="test/Horde/Kolab/FreeBusy/bootstrap.php" />
-   <install as="Horde/Kolab/FreeBusy/phpunit.xml" name="test/Horde/Kolab/FreeBusy/phpunit.xml" />
    <install as="Horde/Kolab/FreeBusy/Unit/FreeBusyTest.php" name="test/Horde/Kolab/FreeBusy/Unit/FreeBusyTest.php" />
    <install as="Horde/Kolab/FreeBusy/Unit/Controller/MatchDictTest.php" name="test/Horde/Kolab/FreeBusy/Unit/Controller/MatchDictTest.php" />
    <install as="Horde/Kolab/FreeBusy/Unit/Factory/BaseTest.php" name="test/Horde/Kolab/FreeBusy/Unit/Factory/BaseTest.php" />
