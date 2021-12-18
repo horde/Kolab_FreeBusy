@@ -3,7 +3,7 @@
     "description": "Kolab application providing free/busy information",
     "type": "horde-library",
     "homepage": "https://www.horde.org",
-    "license": "LGPL-2.1",
+    "license": "LGPL-2.1-only",
     "authors": [
         {
             "name": "Gunnar Wrobel",
@@ -11,7 +11,7 @@
             "role": "lead"
         }
     ],
-    "version": "1.0.0alpha1",
+    
     "time": "2020-10-27",
     "repositories": [
         {
@@ -20,18 +20,18 @@
         }
     ],
     "require": {
-        "horde/horde-installer-plugin": "dev-master",
-        "php": "^5.3 || ^7",
-        "horde/kolab_format": "dev-master",
-        "horde/kolab_server": "dev-master",
-        "horde/kolab_storage": "dev-master",
-        "horde/icalendar": "dev-master",
-        "horde/date": "dev-master",
-        "horde/translation": "dev-master",
-        "horde/util": "dev-master"
+        "horde/horde-installer-plugin": "^2 || dev-FRAMEWORK_6_0",
+        "php": "^7.4 || ^8",
+        "horde/kolab_format": "^3 || dev-FRAMEWORK_6_0",
+        "horde/kolab_server": "^3 || dev-FRAMEWORK_6_0",
+        "horde/kolab_storage": "^3 || dev-FRAMEWORK_6_0",
+        "horde/icalendar": "^3 || dev-FRAMEWORK_6_0",
+        "horde/date": "^3 || dev-FRAMEWORK_6_0",
+        "horde/translation": "^3 || dev-FRAMEWORK_6_0",
+        "horde/util": "^3 || dev-FRAMEWORK_6_0"
     },
     "suggest": {
-        "horde/test": "^2.1"
+        "horde/test": "^3"
     },
     "autoload": {
         "psr-0": {

@@ -25,19 +25,22 @@ state:
   release: beta
   api: beta
 license:
-  identifier: LGPL-2.1
+  identifier: LGPL-2.1-only
   uri: http://www.horde.org/licenses/lgpl21
 dependencies:
   required:
-    php: ^5.3 || ^7
-    pear:
-      pear.horde.org/Horde_Kolab_Format: ^2
-      pear.horde.org/Horde_Kolab_Server: ^2
-      pear.horde.org/Horde_Kolab_Storage: ^2
-      pear.horde.org/Horde_Icalendar: ^2
-      pear.horde.org/Horde_Date: ^2
-      pear.horde.org/Horde_Translation: ^2.2
-      pear.horde.org/Horde_Util: ^2
+    php: ^7.4 || ^8
+    composer:
+      horde/kolab_format: ^3
+      horde/kolab_server: ^3
+      horde/kolab_storage: ^3
+      horde/icalendar: ^3
+      horde/date: ^3
+      horde/translation: ^3
+      horde/util: ^3
   optional:
-    pear:
-      pear.horde.org/Horde_Test: ^2.1
+    composer:
+      horde/test: ^3
+  dev:
+    composer:
+      horde/test: ^3
